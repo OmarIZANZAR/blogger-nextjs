@@ -1,0 +1,22 @@
+:root { --ghost-accent-color: #810246 ; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.sectionName {
+    position: absolute;
+    left: -60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    justify-content: space-between;
+}
+
+.stage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+
+    .count {
+        position: absolute;
+        transform: translateY(10px);
+        top: 0;
+        z-index: -1;
+    }
+}

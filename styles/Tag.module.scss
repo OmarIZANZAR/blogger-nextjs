@@ -1,0 +1,29 @@
+.tagBox {
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    margin: 5px 10px 5px 0;
+    padding: 0 5px;
+    display: grid;
+    place-content: center;
+
+    p {
+        color: #646464;
+        text-transform: uppercase;
+    }
+}
+
+.lg { 
+    height: 30px;
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.sm {
+    height: 20px;
+
+    p {
+        font-size: 15px;
+    }
+}
