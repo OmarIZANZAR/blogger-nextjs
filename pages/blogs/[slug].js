@@ -13,7 +13,7 @@ const PostById = ({ post }) => {
             <Head>
                 <meta name="author" content={post.primary_author.name} />
                 <meta name="description" content={post.meta_description} />
-                <link rel="stylesheet" href="http://localhost:3000/assets/built/styles.css" />
+                <link rel="stylesheet" href="/assets/built/styles.css" />
                 <title>{post.meta_title}</title>
             </Head>
         
